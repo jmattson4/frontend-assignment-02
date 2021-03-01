@@ -1,6 +1,6 @@
 window.addEventListener('load', (event) => {
     const registerForm = document.querySelector('#register');
-    const url = 'http://localhost:5000'
+    const url = 'https://frontend-assignment02.herokuapp.com'
     registerForm.addEventListener('submit',  async (event) => {
         event.preventDefault();
         const name = event.target.querySelector('#fullname').value;
