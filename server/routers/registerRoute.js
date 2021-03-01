@@ -23,10 +23,11 @@ router.post(
                                     req.body.email,
                                     req.body.password);
         if(registerObj.failed == true){
-            res.json(registerObj);
+            return res.json(registerObj);
         }
         if(registerObj.failed == false){
-            res.render('login', {passwordWarning:"", emailWarning:"", email:"", password:""})
+            console.log('Failed is false')
+            return res.redirect('login')
         }
     }
 )

@@ -1,5 +1,6 @@
 const { Router } = require('express');
 const { body, validationResult } = require('express-validator');
+
 const loginService = require('../services/loginService');
 
 const router = Router();
@@ -12,7 +13,7 @@ router.post(
     '/login', 
     body('email').isEmail(),
     body('password').isLength({min: 4}),
-    (req, res) => {
+    async (req, res) => {
         const errors = validationResult(req);
         if(!errors.isEmpty()){
             return res.status(400).json({errors: errors.array()});
@@ -21,7 +22,7 @@ router.post(
             email: req.body.email,
             password: req.body.password
         };
-        const isValidUser = loginService.authenticate(credentials);
+        const isValidUser = await loginService.authenticate(credentials);
         if(isValidUser.user != null){
              // set a session value isValid
              if(!req.session.isValid){

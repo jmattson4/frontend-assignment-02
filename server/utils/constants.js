@@ -1,1 +1,1 @@
-exports.pathToUserFile = '../data/user.json';
+exports.pathToUserFile = '../data/users.json';

@@ -1,7 +1,1 @@
-[
-    {
-        "username":"jace",
-        "email":"user@gmail.com",
-        "password":"1234"
-    }
-]
+[{"username":"jace","email":"user@gmail.com","password":"1234"},{"uuid":"410ca9a2-0316-4114-b882-081b6b9906e4","username":"testing","email":"test@test.com","password":"$2b$10$nV6R00zi/c9XeTORacEHgub9837VCTySiSq6qiVbS68rOO3lrmW/2"},{"uuid":"d33d58c2-3f0d-4bdf-9a1b-8672086e465b","username":"jim foley","email":"email@workspace.com","password":"$2b$10$.K8u9W5uzgDGUrBtU.nXwuReCbmcaYjKD4sjrUsf6ZrJGziqJLNIy"},{"uuid":"1571c81f-7ca1-4be9-b39d-d4b3bb34a90e","username":"jimfoley","email":"email2@workspace.com","password":"$2b$10$v.HtapHTSuzTyClVzlzm5uKOG.6mkwjPLsE3rnjR8ye5rO7EzrpjK"},{"uuid":"bd85e8d2-194c-4443-8468-c4a9ad39977c","username":"jimfoley2","email":"email22@workspace.com","password":"$2b$10$tlZ.Im4NsjJuwNgffJ7dJuilYTdUg7Ml6DkV.jRM.Tr9JFnxjXx9y"},{"uuid":"d95bea64-562c-4c14-b712-0299fedbf67e","username":"jimfoley24","email":"email24@workspace.com","password":"$2b$10$0t2Gb5ySLkjYY1QHFjBEZ.REqWTkLOp5rZ9a1kaAKzHuPP4wfhZti"},{"uuid":"59237da0-0d1d-4a3f-a923-847ffc756ec3","username":"jimfoley244","email":"email244@workspace.com","password":"$2b$10$XGdV7yJXLtRCsm7mslQVueDMVuGOaWNLUvU8M1s769SbKd8dKnSWW"},{"uuid":"ec4a1b66-f941-4575-bd1d-fbf27ddcbcc2","username":"jimfoley224","email":"email224@workspace.com","password":"$2b$10$0YsGnUchZvp6bQjdybWQc.CaGbIobNlAsynsDhHLmLD/9ENix5TM2"},{"uuid":"6371b2e2-b861-4018-b1cc-0e2d750dd425","username":"test2222","email":"test222@gmail.com","password":"$2b$10$3PzQWbXXHtBNPT1gu2JA2O.vXztJWo8fR.z8KJlXmA/ohv7JIYDDO"},{"uuid":"3bcd8da8-bf91-4c2a-b64d-4a2484364243","username":"foley","email":"foley@workspace.com","password":"$2b$10$SuSw7MdXHqJ9RcNQD81dl.4cRFFK25RCNixk9HiQfeAAaFnvRQp2i"}]
