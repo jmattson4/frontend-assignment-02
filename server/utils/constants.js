@@ -1,0 +1,1 @@
+exports.pathToUserFile = '../data/user.json';
